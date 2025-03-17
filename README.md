@@ -1,12 +1,59 @@
-# React + Vite
+# Travel Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Travel Journal is a React.js-based web application that allows users to document their travel experiences. This project features a clean and visually appealing layout, listing different travel destinations with images, descriptions, and visit dates.
 
-Currently, two official plugins are available:
+## Features
+- Responsive and modern UI.
+- Display of travel destinations with country names, dates, and descriptions.
+- Interactive "View on Google Maps" link for each destination.
+- Styled with CSS for a visually appealing experience.
+- Developed using React.js for dynamic rendering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React.js** – For building the user interface.
+- **HTML & CSS** – For structuring and styling the components.
 
-## Expanding the ESLint configuration
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/travel-journal.git
+   cd travel-journal
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm start
+   ```
+4. Open your browser and visit:
+   ```
+   http://localhost:3000
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+```
+travel-journal/
+│-- public/
+│-- src/
+│   │-- components/
+│   │-- assets/
+│   │-- App.js
+│   │-- index.js
+│-- package.json
+│-- README.md
+```
+
+## Deployment
+This project can be deployed using platforms like Vercel or Netlify. To deploy:
+
+# image
+![Image](https://github.com/user-attachments/assets/15778b1d-da3c-43b4-bf9b-73878a1caef9)
+
+## Contributing
+Feel free to fork this repository and make improvements. Pull requests are welcome!
+
+
+Happy Coding! 🎉
